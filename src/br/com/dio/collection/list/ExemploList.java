@@ -62,6 +62,7 @@ public class ExemploList {
             Double next = iterator.next(); //pega o primeiro valor
             soma += next; //e armazena/soma dentro de soma até que não tenha mais next
         }
+
         System.out.println("exiba a soma dos valores: " + soma);
         System.out.println("==================================================");
         System.out.println("exiba a média das notas: " + (soma/notas.size()));
