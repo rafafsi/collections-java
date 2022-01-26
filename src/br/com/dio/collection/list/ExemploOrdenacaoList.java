@@ -9,10 +9,6 @@ import java.util.List;
 /*
 *   dados as informações sobre os gatos, crie uma lista e ordene a lista exibindo:
 * nome, idade e cor
-*
-* Gato 1 = nome: Jan, idade: 18, cor: preto
-* Gato 2 = nome: Simba, idade: 6, cor: tigrado
-* Gato 3 = nome: Jon, idade: 12, cor: amarelo
 * */
 public class ExemploOrdenacaoList {
     public static void main(String[] args) {
@@ -48,12 +44,12 @@ public class ExemploOrdenacaoList {
 
         System.out.println("ordene pela idade: ");
         meusGatos.sort((new ComparatorIdade())); //precisa de comparator
-//       Collections.sort(meusGatos, new ComparatorIdade());
+//       Collections.sort(meusGatos, new ComparatorIdade()); //outra opção
         System.out.println(meusGatos);
 
         System.out.println("==================================================");
 
-        System.out.println("ordene pela cor: "); //tbm vou fazer por comparator pq o comparable já está com o nome
+        System.out.println("ordene pela cor: "); //por comparator pq o comparable já está com o nome
         meusGatos.sort(new ComparatorCor());
         System.out.println(meusGatos);
 
