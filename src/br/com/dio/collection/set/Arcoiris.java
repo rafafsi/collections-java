@@ -53,21 +53,5 @@ public class Arcoiris {
         System.out.println("8. confira se o conjunto está vazio\n");
         System.out.println("o arco-íris está vazio? " + rainbowList.isEmpty());
         System.out.println("==============FIM======================");
-
-
-
-
     }
 }
-
-/*linguagem favorita
-*
-* crie ma classe LinguagemFavorita com nome, anoDeCriacao, IDE
-* crie um conjunto com essas 3 linguagens
-* faça um programa que ordene esse conjunto por:
-* 1. ordem de insercao
-* 2. ordem natural(nome)
-* 3. IDE
-* 4. ano de criacao e nome
-* 5. nome, ano de criacao e IDE
-* */
